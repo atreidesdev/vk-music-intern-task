@@ -1,0 +1,63 @@
+.AudioCell{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 58px;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    background: white;
+}
+
+.hover{
+    background-color: rgba(0,0,0,5%);
+
+}
+
+.active{
+    background-color: rgba(0,0,0,10%);
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 214px;
+    height: 58px;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+.title{
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1.15000000596046448px;
+    text-align: left;
+}
+
+.subtitle{
+    color: #818C99;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 1.20000000298023224px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 62px;
+    padding: 0 0 0 12px;
+}
+
+.time{
+    @extend .subtitle;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 26px;
+    padding: 8px 0 8px 0;
+}
