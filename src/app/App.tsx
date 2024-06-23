@@ -1,6 +1,9 @@
 import {AudioCell} from "@widgets/AudioCell";
 import {Group} from "@vkontakte/vkui";
 import styles from "./app.module.css";
+import Feel from "../../public/Seo-Jayeong-Lies-of-P-OST-Feel.mp3"
+import GLAZA from "../../public/kayyo-GLAZA.mp3"
+import VKUI from "../../public/VKUI.png"
 
 function App() {
 
@@ -9,15 +12,15 @@ function App() {
           <AudioCell
               title={"Трек"}
               author={"Исполнитель"}
-              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/VKUI.png"}
-              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/Seo-Jayeong-Lies-of-P-OST-Feel.mp3"}
+              imagePath={VKUI as string}
+              audioPath={Feel as string}
               duration={203}
           />
           <AudioCell
               title={"Трек"}
               author={"Исполнитель"}
-              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/VKUI.png"}
-              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/kayyo-GLAZA.mp3"}
+              imagePath={VKUI as string}
+              audioPath={GLAZA as string}
               duration={203}
           />
       </Group>
