@@ -23,7 +23,7 @@ export const ActiveAudioImage: React.FC<ActiveAudioImageInterface> = ({ imagePat
             />
             {overlayIcon && (
                 <Image.Overlay className={styles.overlay} visibility={"always"}>
-                    {overlayIcon}
+                    {React.isValidElement(overlayIcon) ? overlayIcon : <span>{overlayIcon}</span>}
                 </Image.Overlay>
             )}
         </div>

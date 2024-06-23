@@ -1,4 +1,3 @@
-import React from 'react';
 import {Popover} from "@vkontakte/vkui";
 import {Icon16MoreVertical} from "@vkontakte/icons";
 import styles from "./AudioPopover.module.scss";
