@@ -9,15 +9,15 @@ function App() {
           <AudioCell
               title={"Трек"}
               author={"Исполнитель"}
-              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/src/assets/VKUI.png"}
-              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/assets/Seo-Jayeong-Lies-of-P-OST-Feel.mp3"}
+              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/VKUI.png"}
+              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/Seo-Jayeong-Lies-of-P-OST-Feel.mp3"}
               duration={203}
           />
           <AudioCell
               title={"Трек"}
               author={"Исполнитель"}
-              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/assets/VKUI.png"}
-              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/assets/kayyo-GLAZA.mp3"}
+              imagePath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/VKUI.png"}
+              audioPath={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/kayyo-GLAZA.mp3"}
               duration={203}
           />
       </Group>

@@ -5,9 +5,9 @@ export const getOverlayIcon = (isCurrentSong: boolean, isPlaying: boolean, hover
     const iconMap: { [key: string]: React.ReactElement | null } = {
         'default': null,
         'notCurrentHover': <Icon28PlayCircleFillWhite width={16} height={16} />,
-        'currentPlaying': <img src={"https://github.com/lovecloudzzz/vk-music-intern-task/assets/Icon16AnimatedPlayingAudio.svg"} alt={"AnimatedAudio"} />,
+        'currentPlaying': <img src={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/Icon16AnimatedPlayingAudio.svg"} alt={"AnimatedAudio"} />,
         'currentPlayingHover': <Icon28PauseCircleFillWhite width={16} height={16} />,
-        'currentNotPlaying': <img src={"https://github.com/lovecloudzzz/vk-music-intern-task/assets/Icon16AudioPaused.svg"} alt={"AudioPaused"} />,
+        'currentNotPlaying': <img src={"https://github.com/lovecloudzzz/vk-music-intern-task/tree/master/src/assets/Icon16AudioPaused.svg"} alt={"AudioPaused"} />,
         'currentNotPlayingHover': <Icon28PlayCircleFillWhite width={16} height={16} />
     };
 
